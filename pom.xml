@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.twentyfive</groupId>
-	<artifactId>twentyfive-model</artifactId>
+	<artifactId>twentyfive-models</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	<distributionManagement>
