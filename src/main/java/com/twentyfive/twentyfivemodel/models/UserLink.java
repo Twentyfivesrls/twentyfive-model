@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@RequiredArgsConstructor
 public class UserLink {
     private String id;
     private String userId;
