@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models;
+package com.twentyfive.twentyfivemodel.models.linktreeModels;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

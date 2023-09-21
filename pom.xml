@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.twentyfive</groupId>
 	<artifactId>twentyfive-models</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.5</version>
 	<packaging>jar</packaging>
 	<distributionManagement>
 		<repository>
@@ -41,8 +41,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.twentyfive</groupId>
-			<artifactId>twentyfive-adapter</artifactId>
-			<version>0.0.2</version>
+			<artifactId>twentyfive-adapters</artifactId>
+			<version>0.0.5</version>
 		</dependency>
 	</dependencies>
 
