@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models.qrGenModels;
+package com.twentyfive.twentyfivemodel.models.emailModels;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

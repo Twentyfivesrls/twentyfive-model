@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.dto;
+package com.twentyfive.twentyfivemodel.dto.qrGenDto;
 
 import lombok.Data;
 
