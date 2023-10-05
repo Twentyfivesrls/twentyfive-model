@@ -16,4 +16,5 @@ public class Event {
     private LocalDateTime date;
     private String location;
     private Boolean enabled;
+    private String userId;
 }
