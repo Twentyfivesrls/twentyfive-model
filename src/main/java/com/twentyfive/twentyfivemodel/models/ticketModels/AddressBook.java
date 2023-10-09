@@ -13,5 +13,5 @@ public class AddressBook {
     private String id;
     private String firstName;
     private String lastName;
-    private LocalDateTime dateOfBirth;
+    private String email;
 }
