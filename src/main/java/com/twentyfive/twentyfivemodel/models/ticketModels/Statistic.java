@@ -12,4 +12,5 @@ public class Statistic {
     private String idEvent;
     private Integer totalTicket;
     private Integer totalTicketActivated;
+    private String userId;
 }
