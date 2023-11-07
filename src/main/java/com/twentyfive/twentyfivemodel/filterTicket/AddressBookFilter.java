@@ -12,6 +12,5 @@ import java.time.LocalDateTime;
 public class AddressBookFilter extends FilterObject  {
     private String firstName;
     private String lastName;
-    private LocalDateTime startDate;
-    private LocalDateTime endDate;
+    private String email;
 }
