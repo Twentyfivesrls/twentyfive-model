@@ -13,7 +13,8 @@ public class Event {
     private String id;
     private String name;
     private String description;
-    private LocalDateTime date;
+    private LocalDateTime dateStart;
+    private LocalDateTime dateEnd;
     private String location;
     private Boolean enabled;
     private String userId;
