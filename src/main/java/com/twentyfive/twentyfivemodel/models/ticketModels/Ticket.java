@@ -18,6 +18,7 @@ public class Ticket {
     private Boolean active;
     private Boolean used;
     private String addressBookId;
+    private String email;
     private String userId;
     private String url;
 
