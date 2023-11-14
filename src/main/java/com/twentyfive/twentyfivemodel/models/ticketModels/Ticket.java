@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 public class Ticket {
     private String id;
+    private String eventId;
     private String eventName;
     private String code;
     private LocalDateTime eventDateStart;
