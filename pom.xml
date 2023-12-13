@@ -11,7 +11,7 @@
 	<groupId>com.twentyfive</groupId>
 	<artifactId>twentyfive-models</artifactId>
 	<version>0.0.21</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<distributionManagement>
 		<repository>
 			<id>github</id>
