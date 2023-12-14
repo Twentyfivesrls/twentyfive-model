@@ -1,6 +1,6 @@
 package com.twentyfive.twentyfivemodel.dto.partenupDto;
 
-import com.twentyfive.twentyfivemodel.models.partenup.PuntoVendita;
+import com.twentyfive.twentyfivemodel.models.partenupModels.PuntoVendita;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

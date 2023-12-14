@@ -1,9 +1,9 @@
 package com.twentyfive.twentyfivemodel.dto.partenupDto;
 
-import com.twentyfive.twentyfivemodel.models.partenup.Fabbisogno;
-import com.twentyfive.twentyfivemodel.models.partenup.Preventivo;
-import com.twentyfive.twentyfivemodel.models.partenup.Riepilogo;
-import com.twentyfive.twentyfivemodel.models.partenup.Trasporto;
+import com.twentyfive.twentyfivemodel.models.partenupModels.Fabbisogno;
+import com.twentyfive.twentyfivemodel.models.partenupModels.Preventivo;
+import com.twentyfive.twentyfivemodel.models.partenupModels.Riepilogo;
+import com.twentyfive.twentyfivemodel.models.partenupModels.Trasporto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

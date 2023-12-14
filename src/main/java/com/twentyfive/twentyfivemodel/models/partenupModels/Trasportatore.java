@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models.partenup;
+package com.twentyfive.twentyfivemodel.models.partenupModels;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models.partenup;
+package com.twentyfive.twentyfivemodel.models.partenupModels;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,11 +12,14 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class BaseDiCarico {
+public class VoceDiRettifica {
     @Id
     @GeneratedValue
-    private long idbasedicarico;
+    private long idvocedirettifica;
 
     @Column(unique = true)
-    private String nomebasedicarico;
+    private String nomevoce;
+
+    // TRUE = AGGIUNTA, FALSE = SOTTRATTA
+    private boolean aggiuntasottratta;
 }

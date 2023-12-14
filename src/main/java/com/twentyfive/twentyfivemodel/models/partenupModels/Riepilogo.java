@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models.partenup;
+package com.twentyfive.twentyfivemodel.models.partenupModels;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -45,4 +45,10 @@ public class Riepilogo {
 
     private Date databonifico;
     private double importobonifico;
+
+    public Riepilogo(Fabbisogno fabbisogno,Trasporto trasporto,Preventivo preventivo){
+        this.fabbisogno = fabbisogno;
+        this.trasporto = trasporto;
+        this.preventivo = preventivo;
+    }
 }

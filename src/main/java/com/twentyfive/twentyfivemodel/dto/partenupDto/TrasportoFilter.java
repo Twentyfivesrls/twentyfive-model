@@ -1,7 +1,7 @@
 package com.twentyfive.twentyfivemodel.dto.partenupDto;
 
-import com.twentyfive.twentyfivemodel.models.partenup.Atk;
-import com.twentyfive.twentyfivemodel.models.partenup.BaseDiCarico;
+import com.twentyfive.twentyfivemodel.models.partenupModels.Atk;
+import com.twentyfive.twentyfivemodel.models.partenupModels.BaseDiCarico;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

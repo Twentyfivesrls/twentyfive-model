@@ -1,4 +1,4 @@
-package com.twentyfive.twentyfivemodel.models.partenup;
+package com.twentyfive.twentyfivemodel.models.partenupModels;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,19 +10,16 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Atk {
+@NoArgsConstructor
+public class Autista {
+
     @Id
     @GeneratedValue
-    private long idatk;
+    private long idautista;
 
     @Column(unique = true)
-    private String codice;
+    private String nomeautista;
 
-    @Column(unique = true)
-    private String targa;
-
-
-    private String suggerito;
 }
+
