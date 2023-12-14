@@ -17,4 +17,6 @@ public class Utente {
     private String password;
 
     private String passwordinchiaro;
+    // 0 = ADMIN , 1 = VIEWER, 2 = CLIENTE
+    private int ruolo;
 }

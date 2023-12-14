@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class BaseDiCarico {
     @Id
     @GeneratedValue
-    private long idbasedicarico;
+    private Long idbasedicarico;
 
     @Column(unique = true)
     private String nomebasedicarico;
