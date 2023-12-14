@@ -2,6 +2,7 @@ package com.twentyfive.twentyfivemodel.dto.partenupDto;
 
 import com.twentyfive.twentyfivemodel.models.partenup.Fabbisogno;
 import com.twentyfive.twentyfivemodel.models.partenup.Preventivo;
+import com.twentyfive.twentyfivemodel.models.partenup.Riepilogo;
 import com.twentyfive.twentyfivemodel.models.partenup.Trasporto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -61,4 +62,27 @@ public class RiepilogoPerFrontEnd {
 
 
     private double totalevolumicarburantitradizionali;
+
+    public Riepilogo toriepilogo(){
+        Riepilogo result = new Riepilogo();
+
+        result.setId(id);
+        result.setFabbisogno(fabbisogno);
+        result.setCaligasolio(caligasolio);
+        result.setCalibenzina(calibenzina);
+        result.setCalisupreme(calisupreme);
+        result.setCaligpl(caligpl);
+
+        result.setUltimoscarico(ultimoscarico);
+        result.setTrasporto(trasporto);
+        result.setPreventivo(preventivo);
+        result.setDas(das);
+
+        result.setNumerofatturafornitore(numerofatturafornitore);
+        result.setNumerofatturapartenopea(numerofatturapartenopea);
+        result.setDatabonifico(databonifico);
+        result.setImportobonifico(importobonifico);
+
+        return result;
+    }
 }
