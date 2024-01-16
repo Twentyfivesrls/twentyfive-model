@@ -14,8 +14,8 @@ public class Ticket {
     private String eventId;
     private String eventName;
     private String code;
-    private LocalDateTime eventDateStart;
-    private LocalDateTime eventDateEnd;
+    private LocalDateTime dateStart;
+    private LocalDateTime dateEnd;
     private Boolean active;
     private Boolean used;
     private String addressBookId;
