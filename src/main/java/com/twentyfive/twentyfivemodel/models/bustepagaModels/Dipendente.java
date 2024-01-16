@@ -14,4 +14,5 @@ public class Dipendente {
     private String firstname;
     private String lastname;
     private String email;
+    private Boolean isEmailEnabled;
 }
