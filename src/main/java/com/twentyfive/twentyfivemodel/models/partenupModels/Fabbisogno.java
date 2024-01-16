@@ -1,33 +1,30 @@
 package com.twentyfive.twentyfivemodel.models.partenupModels;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToOne;
+
+
+
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
-@Entity
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Fabbisogno {
-    @Id
-    @GeneratedValue
+    
+    
     private long id;
 
     private Date data;
 
-    @OneToOne
     private PuntoVendita puntoVendita;
 
-    @OneToOne
     private BaseDiCarico basedicarico;
 
-    @OneToOne
     private Fornitore fornitore;
 
     private boolean preventivoesistente;
