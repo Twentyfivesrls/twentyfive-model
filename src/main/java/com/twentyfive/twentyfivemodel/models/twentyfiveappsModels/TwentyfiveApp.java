@@ -15,4 +15,6 @@ public class TwentyfiveApp {
     private Byte[] imageContent;
     private Boolean isPremium;
     private Boolean isIncoming;
+    private String homeLink;
+
 }
