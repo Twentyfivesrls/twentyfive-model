@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ThubCustomTheme {
+public class ThubTemplate {
 
+    private String name;
     private String backgroundColor;
     private String backgroundImage;
     private String buttonColor;

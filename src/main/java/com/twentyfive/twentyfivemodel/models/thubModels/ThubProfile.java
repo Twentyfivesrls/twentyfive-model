@@ -20,4 +20,5 @@ public class ThubProfile {
     private List<ThubLink> links;
     private String template;
     private ThubCustomTheme customTheme;
+
 }
