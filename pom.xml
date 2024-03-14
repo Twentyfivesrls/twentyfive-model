@@ -11,7 +11,7 @@
 
 	<groupId>com.twentyfive</groupId>
 	<artifactId>twentyfive-models</artifactId>
-	<version>0.0.49</version>
+	<version>0.0.50</version>
 	<packaging>jar</packaging>
 
 	<distributionManagement>
