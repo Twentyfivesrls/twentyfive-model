@@ -15,5 +15,6 @@ public class Premio {
     private String cardId;
 
     private LocalDateTime claimDate;
+    private LocalDateTime cardComplete;
     private boolean claimed;
 }
