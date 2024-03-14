@@ -16,5 +16,5 @@ public class TwentyfiveApp {
     private Boolean isPremium;
     private Boolean isIncoming;
     private String homeLink;
-
+    private Boolean isFreemium;
 }
