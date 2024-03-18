@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 public class Contact {
 
     private String id;
+    private String ownerId;
 
     private String name;
     private String surname;
